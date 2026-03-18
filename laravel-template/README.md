@@ -14,7 +14,7 @@ A starter template with **Laravel 13** and **Fidely UI v2**
 ### Getting Started
 
 ```bash
-npx gitpick https://github.com/fidely-ui/fidely-templates/laravel-template
+npx gitpick https://github.com/fidely-ui/fidely-templates/tree/main/laravel-template
 ```
 
 ### Install dependencies

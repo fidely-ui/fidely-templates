@@ -19,7 +19,7 @@ For Fidely UI v1 check v1 branch
 run the following command:
 
 ```bash
-npx gitpick https://github.com/fidely-ui/fidely-templates/next-page-template
+npx gitpick https://github.com/fidely-ui/fidely-templates/tree/main/next-page-template
 ```
 
 ### Install dependencies

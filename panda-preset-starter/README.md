@@ -24,7 +24,7 @@ styles only, no components. Build and style your own UI freely.
 ### Getting Started
 
 ```bash
-npx gitpick https://github.com/fidely-ui/fidely-templates/panda-preset-starter
+npx gitpick https://github.com/fidely-ui/fidely-templates/tree/main/panda-preset-starter
 ```
 
 ### Install dependencies

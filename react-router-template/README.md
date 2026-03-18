@@ -16,7 +16,7 @@ A starter template for building modern web applications with **Vite**, **React R
 run the following command:
 
 ```bash
-npx gitpick https://github.com/fidely-ui/fidely-templates/react-router-template
+npx gitpick https://github.com/fidely-ui/fidely-templates/tree/main/react-router-template
 ```
 
 ### Install dependencies
