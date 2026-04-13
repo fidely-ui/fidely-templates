@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Box, Button, Center, Heading, Stack, Text, Flex } from "@fidely-ui/react"
+import { Box, Button, Center, Heading, Stack, Text, Flex, Icon } from "@fidely-ui/react"
 import { FaGithub } from "react-icons/fa6"
 
 export default function Home() {
@@ -30,7 +30,7 @@ export default function Home() {
               asChild
             >
               <Link href="https://github.com/fidely-ui/fidely-ui" target="_blank" rel="noopener noreferrer">
-                Github <FaGithub />
+                Github <Icon><FaGithub /></Icon>
               </Link>
             </Button>
           </Flex>

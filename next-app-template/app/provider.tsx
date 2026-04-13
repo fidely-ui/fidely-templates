@@ -7,10 +7,16 @@ interface ProviderProps {
 }
 
 export const Provider = (props: ProviderProps) => {
+  const scriptProps =
+    typeof window === 'undefined'
+      ? undefined
+      : ({ type: 'application/json' } as const)
+
   return (
     <ThemeProvider
       attribute="class"
       disableTransitionOnChange
+      scriptProps={scriptProps}
     >
       {props.children}
     </ThemeProvider>
