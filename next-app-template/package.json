@@ -12,19 +12,19 @@
   "dependencies": {
     "@fidely-ui/panda-preset": "latest",
     "@fidely-ui/react": "latest",
-    "next": "16.1.7",
+    "next": "16.2.3",
     "next-themes": "^0.4.6",
-    "react": "19.2.3",
-    "react-dom": "19.2.3",
-    "react-icons": "^5.5.0"
+    "react": "19.2.5",
+    "react-dom": "19.2.5",
+    "react-icons": "^5.6.0"
   },
   "devDependencies": {
-    "@pandacss/dev": "^1.9.0",
+    "@pandacss/dev": "^1.9.1",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.1.1",
+    "eslint-config-next": "16.2.3",
     "typescript": "^5"
   }
 }
