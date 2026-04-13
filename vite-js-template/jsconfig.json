@@ -5,12 +5,11 @@
     "moduleResolution": "Bundler",
     "skipLibCheck": true,
 
-    "baseUrl": ".",
     "paths": {
       "~/*": [
         "./src/*"
       ],
-      "styled-system/*": ["styled-system/*"]
+      "styled-system/*": ["./styled-system/*"]
     },
   }
 }
