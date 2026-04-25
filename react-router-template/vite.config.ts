@@ -16,8 +16,10 @@ export default defineConfig({
       'styled-system': path.resolve(__dirname, 'styled-system'),
     },
   },
-  
   ssr: {
     noExternal: ["@fidely-ui/react"],
+  },
+  optimizeDeps: {
+    exclude: ['@fidely-ui/react'],
   },
 });

@@ -1,5 +1,5 @@
 import { Head } from "@inertiajs/react";
-import { Box, Button, Center, Heading, Stack, Text, Flex, Icon } from "@fidely-ui/react";
+import { Box, Button, Center, Heading, Stack, Text, Flex, Icon, Span } from "@fidely-ui/react";
 import { FaGithub } from "react-icons/fa6";
 import { AppLayout } from "@/layouts";
 
@@ -52,7 +52,7 @@ export default function Welcome() {
                   borderStyle="solid"
                   borderColor="border.disabled"
                 >
-                  <Text>Get started by editing <Text as="span" ml="1.5" bg="colorPalette.5" p="1.5" rounded="s2">resources/js/pages</Text> </Text>
+                  <Text>Get started by editing <Span as="span" ml="1.5" bg="colorPalette.5" p="1.5" rounded="s2">resources/js/pages</Span> </Text>
                 </Box>
               </Center>
             </Stack>
